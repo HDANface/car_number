@@ -1,0 +1,9 @@
+# 忽略所有文件
+*
+
+# 不忽略LPR.py和colortes.py
+!LPR.py
+!colortes.py
+
+# 不忽略.gitignore文件本身
+!.gitignore
