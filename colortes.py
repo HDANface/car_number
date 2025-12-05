@@ -9,7 +9,7 @@ HSV颜色筛选程序:
 '''
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-path = os.path.join(script_dir, 'dataset', '106_川AT081D.jpg')  
+path = os.path.join(script_dir, 'CLPD_1200', '39.jpg')  
 def empty(a):  
     try:
         h_min = cv2.getTrackbarPos("Hue Min", "TrackBars")  
@@ -24,7 +24,7 @@ def empty(a):
         return 0, 179, 0, 255, 0, 255
 
 # 全局变量存储HSV值
-global_hsv_values = [0, 179, 0, 255, 0, 255]
+global_hsv_values = [100, 117, 46, 124, 255, 255]
 
 def mouse_callback(event, x, y, flags, param):
     global global_hsv_values
